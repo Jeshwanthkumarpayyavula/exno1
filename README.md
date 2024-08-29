@@ -111,6 +111,26 @@ sns.boxplot(id)
 # Output:
 ![image](https://github.com/user-attachments/assets/c13b9b52-baec-450b-bfe8-b83560b47473)
 
+# Calculating Z_score:
+```
+import scipy.stats as stats
+import pandas as pd
+import numpy as np
+
+
+mean = df['M4'].mean()
+std_dev = df['M4'].std()
+
+df['z_score'] = (df['M4'] - mean) / std_dev
+
+print(df)
+
+z = np.abs(stats.zscore(df['M4']))
+z
+```
+
+# Output:
+![image](https://github.com/user-attachments/assets/868917ee-206d-4512-8933-2d6a83af95bc)
 
 
 # Result:

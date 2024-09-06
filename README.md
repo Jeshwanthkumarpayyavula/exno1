@@ -134,4 +134,4 @@ z
 
 
 # Result:
-Successfully removed outliers in a data set using data science(python)
+Thus we have cleaned the data and remove the outliers by detection using IQR and Z-score method.
